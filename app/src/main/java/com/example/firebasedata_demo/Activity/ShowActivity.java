@@ -1,4 +1,4 @@
-package com.example.firebasedata_demo;
+package com.example.firebasedata_demo.Activity;
 
 import android.app.ProgressDialog;
 import android.net.Uri;
@@ -10,6 +10,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.firebasedata_demo.ImageAdapter;
+import com.example.firebasedata_demo.R;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
