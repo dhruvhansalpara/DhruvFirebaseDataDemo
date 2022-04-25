@@ -15,19 +15,19 @@
         android:theme="@style/Theme.Firebasedata_Demo" >
 
 
-        <activity android:name=".RegisterActivity">
+        <activity android:name=".Activity.RegisterActivity">
 
         </activity>
 
-        <activity android:name=".LoginActivity">
+        <activity android:name=".Activity.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"/>
-        <activity android:name=".ShowActivity"/>
+        <activity android:name=".Activity.MainActivity"/>
+        <activity android:name=".Activity.ShowActivity"/>
 
 
     </application>

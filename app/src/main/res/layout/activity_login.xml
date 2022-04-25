@@ -70,6 +70,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:hint="Enter Your Email"
+                            android:text="dhruv@gmail.com"
                             android:textColorHint="@color/black"
                             android:layout_marginLeft="@dimen/_5sdp"
                             android:inputType="text"
@@ -104,6 +105,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:hint="Enter Your password"
+                            android:text="123456"
                             android:layout_marginLeft="@dimen/_5sdp"
                             android:inputType="text"
                             android:textColorHint="@color/black"
@@ -148,7 +150,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/_10sdp"
                     android:gravity="center_horizontal"
-                    android:text="Create an Account ?"
+                    android:text="SignUp your Account ?"
                     android:textColor="@color/colorPrimary"
                     android:textSize="@dimen/_15sdp" />
                 </LinearLayout>

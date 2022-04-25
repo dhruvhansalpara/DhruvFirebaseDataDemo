@@ -56,7 +56,7 @@ public class RegisterActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                progressDialog.show();
+
 
                 String firstname = etfirstname.getText().toString();
                 String lastname  = etlastname.getText().toString();
@@ -98,6 +98,7 @@ public class RegisterActivity extends AppCompatActivity {
                     etPassword.requestFocus();
                 }
 
+                progressDialog.show();
 
 
                 db.collection("first collection").add(data)
